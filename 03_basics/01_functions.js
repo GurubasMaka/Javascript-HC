@@ -35,6 +35,18 @@ function calculateCartPrice(...num1)
 }
 console.log(calculateCartPrice(200,400,500));
 
+const user ={
+    username:"guru",
+    price:9000
+}
+
+function handleObject(anyobject){
+console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+
+}
+handleObject(user)
+
+
 
 
 
